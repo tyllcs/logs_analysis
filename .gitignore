@@ -1,0 +1,8 @@
+.idea/
+.pytest_cache/
+.venv/
+__pycache__/
+*.pyc
+data/access.log
+data/archive (1).zip 
+data/client_hostname.csv
