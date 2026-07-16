@@ -15,6 +15,21 @@
 - **src/main.py** - основной файл с логикой
 - **tests/** - модульные тесты (pytest)
 
+## Как запустить через Docker
+1. Если нет, установите [Docker](https://www.docker.com/products/docker-desktop/)
+2. Найдите и запустите образ tyllcs/weblogs:latest
+
+Запуск тестов:
+```bash
+docker run --rm tyllcs/weblogs:latest
+```
+Запуск в интерактивном режиме:
+```bash
+docker run --rm -it tyllcs/weblogs:latest
+```
+Образ доступен на Docker Hub: https://hub.docker.com/repository/docker/tyllcs/weblogs
+
 ## Загрузка
 ```bash
-pip install -r dependencies
+pip install -r requirements
+```
